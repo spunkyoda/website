@@ -6,26 +6,35 @@ h1 {
 a {
   color: #f00;
 }
-/* HEADER STYLES */
-.header-nav {
+/* HEADER - FOOTER STYLES */
+.header-nav, .footer-nav {
   float: right;
   padding: 1.5vh 60px 0 0;
 }
-.header-nav > li {
+.header-nav > li{
   display: inline-block;
   margin-left: 1em;
 }
 
-.header-nav a{
+.footer-nav > li{
+  display: inline-block;
+  margin: 1em;
+  list-style-type: none;
+}
+.header-nav a, .footer-nav a{
   color: #000;
   font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
 }
-/* .header{
-  margin: 1rem;
-} */
+.header-logo{
+margin: 1em;
+padding: 1em auto;
+}
+.header, .footer{
+  padding: 1.5rem;
+}
 
 /* HERO STYLES */
 .full-hero {

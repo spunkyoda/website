@@ -2,11 +2,14 @@
 <html lang="en">
  {% include head.html %}
 <body>
+<!-- Header      -->
     {% include header.html %}
-    <h1>hello, world</h1>
-    <p>Call me Ishmael</p> 
-    <a href="about.html"></a>
-    <img src="images/breaching_whale.jpg" alt="Moby Dick">
+    <body>
+        {{ content }}
+    </body>
+<!-- Footer      -->
+{% include footer.html %}
+
 </body>
 </html>
 
