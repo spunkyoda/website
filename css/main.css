@@ -9,7 +9,7 @@ a {
 /* HEADER - FOOTER STYLES */
 .header-nav, .footer-nav {
   float: right;
-  padding: 1.5vh 60px 0 0;
+  padding: 1.5vh 1rem 0 0;
 }
 .header-nav > li{
   display: inline-block;
@@ -17,8 +17,8 @@ a {
 }
 
 .footer-nav > li{
-  display: inline-block;
-  margin: 1em;
+    /* display: inline-block; */
+  margin-left: 1em;
   list-style-type: none;
 }
 .header-nav a, .footer-nav a{
@@ -26,14 +26,13 @@ a {
   font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;
-  text-transform: uppercase;
 }
 .header-logo{
 margin: 1em;
 padding: 1em auto;
 }
 .header, .footer{
-  padding: 1.5rem;
+  padding: 1.5rem 1rem;
 }
 
 /* HERO STYLES */
